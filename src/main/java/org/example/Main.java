@@ -33,9 +33,23 @@ public class Main {
         Videojuego juego2= new Videojuego("Geometry Dash", "Runner, musica, plataform","es un videojuego de plataformas y videojuego rítmico ", 2013);
         Videojuego juego3= new Videojuego("Rocket League", "Acción, deportes","Rocket League es un videojuego que combina el fútbol con los vehículos.", 2015);
 
-        juego1.mostrar();
-        juego2.mostrar();
-        juego3.mostrar();
+        System.out.println(juego1.getNombre());
+        System.out.println(juego1.getCategoria());
+        System.out.println(juego1.getDescripcion());
+        System.out.println(juego1.getSalida());
+
+        System.out.println(juego2.getNombre());
+        System.out.println(juego2.getCategoria());
+        System.out.println(juego2.getDescripcion());
+        System.out.println(juego2.getSalida());
+
+
+        System.out.println(juego3.getNombre());
+        System.out.println(juego3.getCategoria());
+        System.out.println(juego3.getDescripcion());
+        System.out.println(juego3.getSalida());
+
+
         System.out.println("*******************************\n");
 
         System.out.println("Lista de canciones seleccionados:");
@@ -44,9 +58,18 @@ public class Main {
         Cancion cancion2= new Cancion("Misses", "Dominic Fike", "1:14");
         Cancion cancion3= new Cancion("Call On Me", "Throne", "3:05");
 
-        cancion1.imprime();
-        cancion2.imprime();
-        cancion3.imprime();
+        System.out.println(cancion1.getNombre());
+        System.out.println(cancion1.getArtista());
+        System.out.println(cancion1.getDuracion());
+
+        System.out.println(cancion2.getNombre());
+        System.out.println(cancion2.getArtista());
+        System.out.println(cancion2.getDuracion());
+
+        System.out.println(cancion3.getNombre());
+        System.out.println(cancion3.getArtista());
+        System.out.println(cancion3.getDuracion());
+
         System.out.println("++++++++++++++++++++++++++++++++++++");
     }
 }

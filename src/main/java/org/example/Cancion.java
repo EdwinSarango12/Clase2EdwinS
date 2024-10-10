@@ -10,10 +10,25 @@ public class Cancion {
         this.artista = artista;
         this.duracion = duracion;
     }
-    public void imprime(){
-        System.out.println(nombre + " - " + artista + " - " + duracion);
-        System.out.println("--------------------------------------");
+    public String getNombre() {
+        return nombre;
+    }
+    public String getArtista() {
+        return artista;
+    }
+    public String getDuracion() {
+        return duracion;
+    }
 
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+    public void setArtista(String artista) {
+        this.artista = artista;
+    }
+    public void setDuracion(String duracion) {
+        this.duracion = duracion;
     }
 
 }
