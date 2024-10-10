@@ -25,5 +25,14 @@ public class Main {
         System.out.println(libro4.imprimirCubierta());
         libro5.imprimir();
         System.out.println(libro5.imprimirCubierta());
+
+
+        System.out.println("Lista de videojuegos seleccionados:");
+        System.out.println("*******************************");
+        Videojuego juego1= new Videojuego("Minecraft", "Aventura","Videojuego de imaginación y supervivencia con diferentes modos de aventura, survival o creativo", 2009);
+        Videojuego juego2= new Videojuego("Geometry Dash", "Runner, musica, plataform","es un videojuego de plataformas y videojuego rítmico ", 2013);
+        Videojuego juego3= new Videojuego("Rocket League", "Acción, deportes","Rocket League es un videojuego que combina el fútbol con los vehículos.", 2015);
+
+
     }
 }
