@@ -25,9 +25,9 @@ public class Main {
         System.out.println(libro4.imprimirCubierta());
         libro5.imprimir();
         System.out.println(libro5.imprimirCubierta());
+        System.out.println(("------------------------------------"));
 
-
-        System.out.println("Lista de videojuegos seleccionados:");
+        System.out.println("\nLista de videojuegos seleccionados:");
         System.out.println("*******************************");
         Videojuego juego1= new Videojuego("Minecraft", "Aventura","Videojuego de imaginación y supervivencia con diferentes modos de aventura, survival o creativo", 2009);
         Videojuego juego2= new Videojuego("Geometry Dash", "Runner, musica, plataform","es un videojuego de plataformas y videojuego rítmico ", 2013);
@@ -36,7 +36,7 @@ public class Main {
         juego1.mostrar();
         juego2.mostrar();
         juego3.mostrar();
-
+        System.out.println("*******************************\n");
 
         System.out.println("Lista de canciones seleccionados:");
         System.out.println("++++++++++++++++++++++++++++++++++++");
@@ -47,6 +47,6 @@ public class Main {
         cancion1.imprime();
         cancion2.imprime();
         cancion3.imprime();
-
+        System.out.println("++++++++++++++++++++++++++++++++++++");
     }
 }
