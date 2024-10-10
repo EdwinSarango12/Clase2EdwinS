@@ -33,6 +33,20 @@ public class Main {
         Videojuego juego2= new Videojuego("Geometry Dash", "Runner, musica, plataform","es un videojuego de plataformas y videojuego rítmico ", 2013);
         Videojuego juego3= new Videojuego("Rocket League", "Acción, deportes","Rocket League es un videojuego que combina el fútbol con los vehículos.", 2015);
 
+        juego1.mostrar();
+        juego2.mostrar();
+        juego3.mostrar();
+
+
+        System.out.println("Lista de canciones seleccionados:");
+        System.out.println("++++++++++++++++++++++++++++++++++++");
+        Cancion cancion1= new Cancion("So Cold", "Balu Brigada", "3:34");
+        Cancion cancion2= new Cancion("Misses", "Dominic Fike", "1:14");
+        Cancion cancion3= new Cancion("Call On Me", "Throne", "3:05");
+
+        cancion1.imprime();
+        cancion2.imprime();
+        cancion3.imprime();
 
     }
 }
