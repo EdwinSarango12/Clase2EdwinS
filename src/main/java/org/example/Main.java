@@ -33,22 +33,27 @@ public class Main {
         Videojuego juego2= new Videojuego("Geometry Dash", "Runner, musica, plataform","es un videojuego de plataformas y videojuego rítmico ", 2013);
         Videojuego juego3= new Videojuego("Rocket League", "Acción, deportes","Rocket League es un videojuego que combina el fútbol con los vehículos.", 2015);
 
+        //getters
         System.out.println(juego1.getNombre());
         System.out.println(juego1.getCategoria());
         System.out.println(juego1.getDescripcion());
         System.out.println(juego1.getSalida());
+
+        System.out.println("*******************************\n");
 
         System.out.println(juego2.getNombre());
         System.out.println(juego2.getCategoria());
         System.out.println(juego2.getDescripcion());
         System.out.println(juego2.getSalida());
 
+        System.out.println("*******************************\n");
 
         System.out.println(juego3.getNombre());
         System.out.println(juego3.getCategoria());
         System.out.println(juego3.getDescripcion());
         System.out.println(juego3.getSalida());
 
+        //setters
 
         System.out.println("*******************************\n");
 
@@ -57,8 +62,10 @@ public class Main {
         Cancion cancion1= new Cancion("So Cold", "Balu Brigada", "3:34");
         Cancion cancion2= new Cancion("Misses", "Dominic Fike", "1:14");
         Cancion cancion3= new Cancion("Call On Me", "Throne", "3:05");
+        Cancion cancion4=new Cancion();
 
-        System.out.println(cancion1.getNombre());
+        //getters
+        /*System.out.println(cancion1.getNombre());
         System.out.println(cancion1.getArtista());
         System.out.println(cancion1.getDuracion());
 
@@ -68,7 +75,19 @@ public class Main {
 
         System.out.println(cancion3.getNombre());
         System.out.println(cancion3.getArtista());
-        System.out.println(cancion3.getDuracion());
+        System.out.println(cancion3.getDuracion());*/
+
+        //setters
+        System.out.println(cancion1.getDuracion());
+        cancion1.setDuracion("3:43");
+        System.out.println("Cambios realizados a:");
+        System.out.println(cancion1.getDuracion());
+
+        cancion4.setNombre("On Your Own");
+        cancion4.setDuracion("3:32");
+
+
+
 
         System.out.println("++++++++++++++++++++++++++++++++++++");
     }
