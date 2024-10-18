@@ -37,7 +37,10 @@ public class Series {
     public void setGenre(String genre) {
         this.genre = genre;
     }
-    public void imprimir(){
-        System.out.println(name + " " + description + " " + genre);
+    public void imprimirSeries() {
+        System.out.println("Titulo: " + this.name);
+        System.out.println("Descripcion: " + this.description);
+        System.out.println("Genre: " + this.genre);
+
     }
 }

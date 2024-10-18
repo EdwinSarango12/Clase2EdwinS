@@ -47,4 +47,11 @@ public class Transporte {
     public void setSalida(String salida) {
         this.salida = salida;
     }
+
+    public void mostrarTransporte() {
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Cooperativa: " + cooperativa);
+        System.out.println("Llegada: " + Llegada);
+        System.out.println("Salida: " + salida);
+    }
 }

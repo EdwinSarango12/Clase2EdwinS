@@ -30,8 +30,11 @@ public class Cancion {
     public void setDuracion(String duracion) {
         this.duracion = duracion;
     }
+    public void mostrarCancion(){
+        System.out.println("Nombre: " + nombre);
+        System.out.println("Artista: " + artista);
+        System.out.println("Duracion: " + duracion);
 
-    public Cancion() {
     }
 
 }

@@ -47,4 +47,10 @@ public class Auto {
     public void setAnio(int anio) {
         this.anio = anio;
     }
+    public void mostrarAuto(){
+        System.out.println("Marca: " + marca);
+        System.out.println("Modelo: " + modelo);
+        System.out.println("Color: " + color);
+        System.out.println("Anio: " + anio);
+    }
 }
