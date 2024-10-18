@@ -114,9 +114,6 @@ public class Main {
         miAuto.setColor(color);
         miAuto.mostrarAuto();*/
 
-        //Transporte
-        System.out.println(no);
-
 
 
 
